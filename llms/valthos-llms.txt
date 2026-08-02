@@ -1,0 +1,20 @@
+# Valthos
+
+> Valthos is a New York City-based biodefense company developing frontier AI systems that identify biological threats and design medical countermeasures in real time. Backed by $30 million from the OpenAI Startup Fund, Lux Capital, and Founders Fund (October 2025), with a founding team from Palantir, DeepMind, the Broad Institute, and the Arc Institute. Valthos publishes no public API, developer portal, or open-source surface as of July 2026.
+
+## Company
+
+- [Website](https://valthos.com): Company homepage — "We develop frontier AI systems that identify biological threats and design medical countermeasures in real time."
+- [Introducing Valthos](https://valthos.com/blog/intro): Launch post (2025-10-24) — mission, funding, and team background.
+- [Careers](https://jobs.ashbyhq.com/valthos): Open roles (software, applied AI, computational biology, forward-deployed, product engineering) in New York.
+- [Bloomberg coverage](https://www.bloomberg.com/news/articles/2025-10-24/openai-backs-a-new-venture-trying-to-thwart-ai-bio-attacks): Press on the OpenAI-backed launch.
+- [X (Twitter)](https://x.com/ValthosTech)
+- [LinkedIn](https://www.linkedin.com/company/valthos)
+
+## APIs
+
+- None published. Valthos exposes no public API, documentation, or developer program as of 2026-07-21.
+
+## Catalog
+
+- [APIs.json profile](https://raw.githubusercontent.com/api-evangelist/valthos/refs/heads/main/apis.yml): API Evangelist network profile for Valthos.

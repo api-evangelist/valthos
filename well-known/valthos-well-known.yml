@@ -1,0 +1,26 @@
+generated: '2026-07-21'
+method: searched
+source: https://valthos.com
+host: https://valthos.com
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+- path: /llms.txt
+  status: 404
+- path: /robots.txt
+  status: 404
+- path: /sitemap.xml
+  status: 404
+notes: >-
+  No /.well-known/ discovery surface published as of 2026-07-21. Valthos has no
+  public API, developer portal, or OAuth surface; the marketing site returns
+  404 for every probed discovery path. Empty result recorded to keep re-runs
+  idempotent.

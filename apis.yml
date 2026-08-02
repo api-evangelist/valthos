@@ -1,9 +1,28 @@
 aid: valthos
 name: Valthos
-description: 'Valthos is a company surfaced as a portfolio company of lux-capital and added to the API
-  Evangelist network as a stub for enrichment. Sector: defense-bio. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: >-
+  Valthos is a New York City-based biodefense company developing frontier AI
+  systems that identify biological threats and design medical countermeasures
+  in real time. The company emerged from stealth in October 2025 with $30
+  million in backing from the OpenAI Startup Fund, Lux Capital, and Founders
+  Fund, with a founding team drawn from Palantir, DeepMind, the Broad
+  Institute, and the Arc Institute. Valthos is building AI-powered biodefense
+  infrastructure to rapidly analyze biological sequences and update medicines
+  at scale for experts in government and the life sciences. The company does
+  not yet publish a public API, developer portal, or open-source surface.
 url: https://raw.githubusercontent.com/api-evangelist/valthos/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://valthos.com/favicon.ico
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,13 +31,57 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Defense Bio
+- Biodefense
+- Biosecurity
+- Artificial Intelligence
+- Medical Countermeasures
+- Life Sciences
+- National Security
+- New York
 apis: []
+common:
+- type: DomainSecurity
+  url: security/valthos-domain-security.yml
+- type: LLMsTxt
+  url: llms/valthos-llms.txt
+- type: Website
+  url: https://valthos.com
+- type: Blog
+  url: https://valthos.com/blog/intro
+- type: Careers
+  url: https://jobs.ashbyhq.com/valthos
+- type: Twitter
+  url: https://x.com/ValthosTech
+- type: LinkedIn
+  url: https://www.linkedin.com/company/valthos
+- type: News
+  url: https://www.bloomberg.com/news/articles/2025-10-24/openai-backs-a-new-venture-trying-to-thwart-ai-bio-attacks
+- type: Features
+  data:
+  - 'Sector: Biodefense / defense-bio (AI for biological threat identification and medical countermeasures)'
+  - 'Mission: any threat to human health can be immediately identified and neutralized'
+  - 'Emerged from stealth: October 2025'
+  - 'Funding: $30 million from the OpenAI Startup Fund, Lux Capital, and Founders Fund'
+  - 'Founding team origins: Palantir, DeepMind, Broad Institute, Arc Institute'
+  - 'HQ: New York City, NY (San Francisco secondary for select roles)'
+  - 'Hiring (Jul 2026): software, applied AI, computational biology, forward-deployed, product engineering roles in New York'
+  - 'Public API surface: none published as of 2026-07-21'
+  sources:
+  - https://valthos.com
+  - https://valthos.com/blog/intro
+  - https://api.ashbyhq.com/posting-api/job-board/valthos
+  updated: '2026-07-21'
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
