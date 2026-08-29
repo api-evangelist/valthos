@@ -11,6 +11,17 @@ description: >-
   at scale for experts in government and the life sciences. The company does
   not yet publish a public API, developer portal, or open-source surface.
 url: https://raw.githubusercontent.com/api-evangelist/valthos/refs/heads/main/apis.yml
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
